@@ -1,0 +1,2 @@
+I did the simplest with the best results in tests, I got #1 in arena
+I run the boost when far enough from destination. I also thought I could moderate the thurst when angle is >70 for example, but the results were not as good when testing.
