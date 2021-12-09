@@ -11,3 +11,7 @@ Key concepts
 -handle_avoidance : very simple avoidance (handle_avoidance, can't implement RVO in such limited time for now)
 -overshoot detection (inlined in code)
 -check_can_boost when aligned
+
+Problems
+-I tried to stick to integers where possible, but it is absurd. I should have used only VectorF_t instead of Vector_t
+-in the Overshoot part, line 223, I defined a constant that I do not use and the 'for' is not synchronized to it
