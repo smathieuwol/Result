@@ -31,16 +31,6 @@ int main()
 
         int thurst = 0;
         bool now_boost = false;
-        if (abs(next_checkpoint_angle)<max_boost_angle_to_target && next_checkpoint_dist>min_boost_dist && !used_boost)
-        {
-            cerr << "------------BOOST " << next_checkpoint_dist <<endl;
-            used_boost = true;
-            now_boost = true;
-        }
-        else if (abs(next_checkpoint_angle)<90)
-        {
-            thurst = 100;
-        }
         cout << next_checkpoint_x << " " << next_checkpoint_y << " ";
         if (now_boost)
             cout << "BOOST";
